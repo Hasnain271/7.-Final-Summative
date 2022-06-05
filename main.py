@@ -12,6 +12,7 @@ screen = pygame.display.set_mode((800, 600))
 pygame.display.set_caption("Snake Game")
 
 # Snake
+snake_head = [408, 300]
 snake_x = []
 snake_y = []
 snake_x_change = 0
